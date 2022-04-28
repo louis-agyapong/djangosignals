@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Local apps
     "djangosignals.buyers",
+    "djangosignals.cars",
     # External apps
     "django_extensions",
 ]
