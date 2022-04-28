@@ -6,4 +6,4 @@ class BuyersConfig(AppConfig):
     name = "djangosignals.buyers"
 
     def ready(self) -> None:
-        from djangosignals.buyers import signals
+        from djangosignals.buyers import signals # noqa: F401
