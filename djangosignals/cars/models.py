@@ -17,5 +17,5 @@ class Car(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.code:
-            self.code = str(uuid.uuid4().replace("-", ""))[:10]
+            self.code = str(uuid.uuid4()).replace("-", "")[:10]
         super().save(*args, **kwargs)
